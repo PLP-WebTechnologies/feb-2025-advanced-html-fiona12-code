@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Week Two Assignment</title>
+  </head>
+  <body>
+    <h2>Ordered list</h2>
+    <ol type="i" start="1">
+      <li>Things Fall Apart</li>
+      <li>The Whale Rider</li>
+      <li>Seasons of Love and Despair</li>
+      <li>Secret Lives of Baba Segi's Wives</li>
+      <li>The Fortress</li>
+      <li>Off the Boat</li>
+    </ol>
+
+    <h2>Image</h2>
+    <img
+      src="https://images.pexels.com/photos/16754837/pexels-photo-16754837/free-photo-of-clear-sky-over-waterfall.jpeg?auto=compress&cs=tinysrgb&w=600"
+      alt="waterbody"
+      height="500"
+      width="500"
+    />
+
+    <h2>Table</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fiona Atieno</td>
+          <td>1234, Nairobi</td>
+          <td>0712345678</td>
+          <td>fionatieno@gmail.com</td>
+        </tr>
+        <tr>
+          <td>James Mwai</td>
+          <td>2345, Nakuru</td>
+          <td>0712987654</td>
+          <td>jmwai@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Jane Ngei</td>
+          <td>3456, Mombasa</td>
+          <td>0798456732</td>
+          <td>ngeijane@gmail.com</td>
+        </tr>
+        <tr>
+          <td>Lord Abram</td>
+          <td>657432, Nairobi</td>
+          <td>07078945362</td>
+          <td>lordabram@gmail.com</td>
+        </tr>
+        <tr>
+          <td>John Manoti</td>
+          <td>3457, Kisii</td>
+          <td>0745637280</td>
+          <td>manotijay@gmail.com</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <h2>form</h2>
+    <form action="">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        required
+        placeholder="John Doe"
+      />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+      <br />
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required />
+      <br />
+      <label for="date">Date</label>
+      <input type="date" id="date" name="date" required />
+      <br />
+      <label for="country">Country</label>
+      <select name="country" id="country">
+        <option>--Select Country</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Uganda">Uganda</option>
+        <option value="Tanzania">Tanzania</option>
+        <option value="Somalia">Somalia</option>
+        <option value="Rwanda">Rwanda</option>
+        <option value="Burundi">Burundi</option>
+      </select>
+      <br />
+      <label for="gender">Gender</label>
+      <input type="radio" name="gender" value="female" />Female
+      <input type="radio" name="gender" value="male" />Male
+      <br />
+      <label for="clothes">Clothes</label>
+      <input type="checkbox" name="clothes" value="T-shirt" />T-shirt
+      <input type="checkbox" name="clothes" value="Trouser" />Trouser
+      <input type="checkbox" name="clothes" value="Skirt" />Skirt
+      <input type="checkbox" name="clothes" value="Dress" />Dress
+      <br />
+    </form>
+  </body>
+</html>
